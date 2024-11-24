@@ -10,7 +10,7 @@ git clone https://github.com/jadestreet/CS259Pretraining.git
 ## 259_2k.csv
 This csv file records some attributes of these c files, including:  
 'unique_id' (unique identifier), 'repo_name', 'path',  
-'effective_code_length', 'loop_count', 'computation_count', (Some simple metric of static code)
+'effective_code_length', 'loop_count', 'computation_count', (Some simple metric of static code)  
 'execution_time', 'execution_time_cycles', 'instruction_count', 'cpi', (Time & instruction metric)  
 'I1mr', 'ILmr', 'Dr', 'Dw', 'D1mr', 'D1mw', 'DLmr', 'DLmw', 'instruction_cache_miss_rate',
 'data_cache_miss_rate', (profiling metric using cachegrind)  
