@@ -4,9 +4,9 @@ This repo is used for UCLA CS259 course project pretraining. The exact component
 In this folder, there are 2,000 executable c files.  
 All the files are extracted from https://huggingface.co/datasets/codeparrot/github-code. This dataset collects files from the GitHub.  
 To use the files, feel free to clone a copy to your PC.  
-'''
+```bash
 git clone https://github.com/jadestreet/CS259Pretraining.git
-'''
+```
 ## 259_2k.csv
 This csv file records some attributes of these c files, including:  
 'unique_id' (unique identifier), 'repo_name', 'path',  
